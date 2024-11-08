@@ -305,6 +305,7 @@ void Board::statusActions() {
             }
         }
     }
+    updateFlagCount();
 
     if (statuses["lose"]) {
         winGraphic->playerLoses();
